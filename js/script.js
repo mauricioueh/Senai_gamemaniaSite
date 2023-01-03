@@ -6,9 +6,11 @@ $("#barras").click(function(){
     $("#menu").addClass("menu-ativo")
   }
   
+}) 
+
 })
-   
-})
+
+
 
 function entrar(){
 var logado = 0;
@@ -67,15 +69,25 @@ function login1(){
 }
 
 
+function buscar(){
+
+    alert("Desculpe não encontrei nada")
+    window.location.href = "pages/conta.html";
+ 
+
+}
+
+
 function fazendo(){
 
-    alert("Area em construcao")
+    alert("Area em construção")
 }
 
 function comopaga(){
 
     alert("Pix 10% desconto, aceitamos cartoes 10x sem juros")
 }
+
 
 
 

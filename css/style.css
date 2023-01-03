@@ -41,6 +41,7 @@ header{
    width: 700px;
 
 
+
 }
 
 
@@ -113,8 +114,6 @@ color: white;
     .info2 a{
 
         text-decoration: none;
-       
-
 
 
     }
@@ -149,13 +148,7 @@ top: 5px;
 
 }
 
-.lupa{
-    height: 40px;
-    position: fixed;
-    left: 80px;
-    top: 5px;
 
-}
 .carro{
     height: 40px;
     position: fixed;
@@ -471,5 +464,26 @@ color: white;
 
 }
 
+.btn-group{
+
+position: absolute;
+top: 840px;
+
+
+
+}
+
+#lupabarra{
+
+    height: 1px;
+  
+    display: flex;
+    width: 400px;
+    align-items: center;
+  margin-left: auto;
+  justify-content: space-between;
+
+
+}
 
 

@@ -10,11 +10,19 @@
 </head>
 <body>
     <header>  
-      <a href="../conta.html" id="usuario"><img class="icon-usuario" src="../img/usuario.svg" alt="icone usuario"></a>
+      <a href="conta.html" id="usuario"><img class="icon-usuario" src="../img/usuario.svg" alt="icone usuario"></a>
+      <nav id = "lupabarra" class="lupabarra"><img src="../img/lupa.svg" alt="icone lupa" height="30px">       
+        <div class="container-fluid">  
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Digite o que Procura" aria-label="Search">
+            <button class="btn btn-outline-success" onclick="buscar()" type="submit">Buscar</button>
+          </form>
+        </div>
+      </nav>
       <div class="logo">
-        <a href="index.html"><img src="../img/GAME.png" alt="game"></a>
-        <a href="index.html"><img src="../img/logo.png" alt="logo do site"></a>
-        <a href="index.html"><img src="../img/MANIA.png" alt="mania"></a>
+        <a href="../index.html"><img src="../img/GAME.png" alt="game"></a>
+        <a href="../index.html"><img src="../img/logo.png" alt="logo do site"></a>
+        <a href="../index.html"><img src="../img/MANIA.png" alt="mania"></a>
       </div>
      <nav id="menu" class="menu">  
     <a href="../index.html">PROMOÇÕES</a>
@@ -101,7 +109,13 @@
 
 
 
+                    <div class="btn-group me-2" role="group" aria-label="Second group">
+                      <button type="button" onclick="fazendo()" class="btn btn-secondary">1</button>
+                      <button type="button" onclick="fazendo()" class="btn btn-secondary">2</button>
+                      <button type="button" onclick="fazendo()" class="btn btn-secondary">..</button>
+                      <button type="button" onclick="fazendo()" class="btn btn-secondary">7</button>
 
+                    </div>
 
 
 
